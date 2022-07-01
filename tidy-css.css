@@ -4,9 +4,13 @@
 /* Thank you thomasf
 /* 
 /* I only added the TOC on the left and changed some heading sizes
-/* and colours. 
+/* and colours. And suppressed the printed toc.
 /* That's all.
  */
+
+@media print {
+  #TOC { display: none; }
+}
 
 @import url(http://fonts.googleapis.com/css?family=Inconsolata);
 @import url(http://fonts.googleapis.com/css?family=PT+Sans);
