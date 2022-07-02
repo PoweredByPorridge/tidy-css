@@ -4,13 +4,12 @@
 /* Thank you thomasf
 /* 
 /* I only added the TOC on the left and changed some heading sizes
-/* and colours. And suppressed the printed toc.
+/* and colours. And suppressed the printed toc. Then removed that because
+/* it messed up the fonts - didn't seem to allow the narrow font to be 
+/* narrow.
 /* That's all.
  */
 
-@media print {
-  #TOC { display: none; }
-}
 
 @import url(http://fonts.googleapis.com/css?family=Inconsolata);
 @import url(http://fonts.googleapis.com/css?family=PT+Sans);
@@ -19,7 +18,7 @@
 /* fixed menu */
 #table-of-contents {
 position: fixed;
-    /* font-size: 0.8em; */
+/* font-size: 0.8em; */
     font-style: normal;
     left:2px;top:0;
     width:275px;
@@ -27,18 +26,18 @@ position: fixed;
 }
 
 #table-of-contents ul {
-    font-size:0.95em; 
+    font-size:0.9em;
     padding: 0;
     margin: 0;
-    padding-left: 30px;    
+    padding-left: 30px;
 }
 
-#table-of-contents li {
-    font-size: 0.95em;
-    padding: 0;
-    margin: 0;
-    padding-left: 1px;    
-}
+/* #table-of-contents li { */
+/*     font-size: 0.9em; */
+/*     padding: 0; */
+/*     margin: 0; */
+/*     padding-left: 1px;     */
+/* } */
 
 article,
 aside,
