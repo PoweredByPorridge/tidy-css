@@ -1,0 +1,22 @@
+#    -*- mode: org -*-
+
+#+STARTUP: indent content hidestars nologdone
+#+TAGS: ForEdit InBook
+
+#+OPTIONS: toc:nil author:nil num:nil date:nil
+#+MACRO: options (eval (if (org-export-derived-backend-p org-export-current-backend 'html) "#+OPTIONS: toc:2 author:nil num:0 date:nil"))
+{{{options}}}
+
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://poweredbyporridge.github.io/tidy-css/tidy-css.css" />
+# #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="tidy-css.css"/>
+
+#+LATEX_CLASS: article
+#+latex_class_options: [10pt]
+#+LATEX_HEADER: \usepackage{geometry}
+#+LATEX_HEADER: [a4paper,bindingoffset=1cm,left=2cm,right=2cm,top=2.5cm,bottom=2cm,footskip=0.5cm]
+#+LATEX_HEADER: \usepackage[sf]{titlesec}
+
+#+MACRO: name (eval (file-name-nondirectory (buffer-file-name)))
+#+TITLE: {{{name}}}
+
+ 
