@@ -256,25 +256,26 @@ pre {
   box-shadow: 5pt 5pt 8pt #eee8d5;
 }
 /* pre code {
-  background-color: #fdf6e3; */
+  background-color: #fdf6e3; */ 
 }
 h1 {
   font-size: 2.4em;
 }
 h2 {
-  font-size: 2.0em;
+    font-size: 2.0em;
+    border-bottom: 1px solid #2F4F4F;
 }
 h3 {
-  font-size: 1.8em;
-}
-h4 {
   font-size: 1.4em;
 }
+h4 {
+  font-size: 1.1em;
+}
 h5 {
-  font-size: 1.3em;
+  font-size: 1.1em;
 }
 h6 {
-  font-size: 1.15em;
+  font-size: 1.0em;
 }
 .tag {
   background-color: #eee8d5;
