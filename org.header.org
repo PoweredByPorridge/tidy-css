@@ -11,7 +11,7 @@
 # #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="tidy-css.css"/>
 
 #+LATEX_CLASS: article
-#+latex_class_options: [10pt]
+#+LATEX_CLASS_OPTIONS: [10pt]
 #+LATEX_HEADER: \usepackage{geometry}
 #+LATEX_HEADER: [a4paper,bindingoffset=1cm,left=2cm,right=2cm,top=2.5cm,bottom=2cm,footskip=0.5cm]
 #+LATEX_HEADER: \usepackage[sf]{titlesec}
