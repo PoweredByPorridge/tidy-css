@@ -7,8 +7,8 @@
 #+MACRO: options (eval (if (org-export-derived-backend-p org-export-current-backend 'html) "#+OPTIONS: toc:2 author:nil num:0 date:nil"))
 {{{options}}}
 
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://poweredbyporridge.github.io/tidy-css/tidy-css.css" />
-# #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="tidy-css.css"/>
+# #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://poweredbyporridge.github.io/tidy-css/tidy-css.css" />
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="tidy-css.css"/>
 
 #+LATEX_CLASS: article
 #+LATEX_CLASS_OPTIONS: [10pt]
