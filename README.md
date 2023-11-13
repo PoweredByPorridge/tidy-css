@@ -1,9 +1,10 @@
+
 # tidy-css
 Some css that works nicely with org exports. 
 
 * [tidy-css](https://poweredbyporridge.github.io/tidy-css/tidy-css.css)
 * [Common org file header](https://poweredbyporridge.github.io/tidy-css/org.header.org). Imported using the header from:
-** https://poweredbyporridge.github.io/tidy-css/tidy-css.css
+https://poweredbyporridge.github.io/tidy-css/tidy-css.css
 
 This is a minor modification of the solarized CSS by thomasf:
 https://github.com/thomasf/solarized-css
