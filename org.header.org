@@ -4,17 +4,8 @@
 #+MACRO: options (eval (if (org-export-derived-backend-p org-export-current-backend 'html) "#+OPTIONS: toc:2 author:nil num:0 date:nil"))
 {{{options}}}
 
-# #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://orgmode.org/worg/style/worg.css"/>
-# #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="worg.css" />
-
-# #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
-# #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="http://thomasf.github.io/solarized-css/solarized-dark.min.css"/>
-# #+HTML_HEAD: <link href="https://taopeng.me/org-notes-style/css/notes.css" rel="stylesheet" type="text/css" />
-# #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="./org/solarized-w-sidetoc.css" />
-
-
-# #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://poweredbyporridge.github.io/tidy-css/tidy-css.css" />
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="tidy-css.css"/>
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://poweredbyporridge.github.io/tidy-css/tidy-css.css" />
+# #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="tidy-css.css"/>
 
 #+LATEX_CLASS: article
 #+LATEX_CLASS_OPTIONS: [10pt]
